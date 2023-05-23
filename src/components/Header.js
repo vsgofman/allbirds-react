@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import './styles/Header.css'
 import headerLogo from '../images/header__logo.svg';
 import iconProfile from '../images/icon_profile.svg';
@@ -7,22 +8,22 @@ import iconCart from '../images/icon__shopping-cart.svg';
 function Header() {
   return (
     <header className='header'>
-      <nav className='header__nav'>
-        <a className='nav__link' href='#'>Men</a>
-        <a className='nav__link' href='#'>Women</a>
-        <a className='nav__link' href='#'>New Arrivals</a>
+      <nav className='nav'>
+        <a className='link_men nav__link' href='#'>Men</a>
+        <a className='link_women nav__link' href='#'>Women</a>
+        <a className='link_new-arrivals nav__link' href='#'>New Arrivals</a>
       </nav>
       <img className='header__logo' src={headerLogo} alt='logo' />
-      <nav>
-        <a className='nav__link' href='#'>Sustainability</a>
-        <a className='nav__link' href='#'>Stores</a>
-        <a className='nav__link' href='#'>
+      <nav className='nav'>
+        <a className='link_sustainability nav__link' href='#'>Sustainability</a>
+        <a className='link_stores nav__link' href='#'>Stores</a>
+        <a className='link_profile nav__link' href='#'>
           <img className='nav__icon' src={iconProfile} alt='icon profile' />
         </a>
-        <a className='' href='#'>
+        <a className='link_help nav__link' href='#'>
           <img className='nav__icon' src={iconHelp} alt='icon help' />
         </a>
-        <a className='' href='#'>
+        <a className='link_cart nav__link' href='#'>
           <img className='nav__icon' src={iconCart} alt='icon shopping cart' />
         </a>
       </nav>

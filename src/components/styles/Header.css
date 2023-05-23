@@ -5,8 +5,66 @@
   justify-content: space-between;
 }
 
+.nav {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
 .nav__link {
   text-decoration: none;
   text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 1.7px;
   color: #212A2F;
+}
+
+.link_men {
+  width: 31px;
+  height: 21px;
+  margin: 0 36px 0 27px;
+}
+
+.link_women {
+  width: 57px;
+  height: 21px;
+  margin-right: 36px;
+}
+
+.link_new-arrivals {
+  width: 107px;
+  height: 21px;
+}
+
+.link_sustainability {
+  width: 121px;
+  height: 21px;
+  margin-right: 39px;
+}
+
+.link_stores {
+  width: 56px;
+  height: 21px;
+  margin-right: 18px;
+}
+
+.link_profile {
+  width: 25px;
+  height: 25px;
+  margin-right: 18px;
+  color: red;
+}
+
+.link_help {
+  width: 25px;
+  height: 25px;
+  margin-right: 18px;
+}
+
+.link_cart {
+  width: 34px;
+  height: 31px;
+  margin-right: 24px;
 }
