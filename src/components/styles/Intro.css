@@ -1,0 +1,58 @@
+.intro {
+  min-height: 740px;
+  width: 100%;
+  padding-left: 54px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: end;
+  background-image: url(../../images/intro-bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.intro__title {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 63px;
+  letter-spacing: .5px;
+  color: #fff;
+}
+
+.intro__subtitle {
+  margin-top: 11px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: .5px;
+  color: #fff;
+}
+
+.intro__buttons {
+  margin: 24px 0 66px 0;
+}
+
+.intro__button {
+  width: 180px;
+  height: 48px;
+  margin-right: 24px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: #fff;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  transition: opacity .2s ease-out;
+}
+
+.intro__button:hover {
+  opacity: .9;
+}
+
+.intro__button:last-child {
+  margin: 0;
+}
