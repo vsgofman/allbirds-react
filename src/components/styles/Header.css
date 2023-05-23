@@ -1,0 +1,12 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #212A2F;
+}
