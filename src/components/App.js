@@ -1,13 +1,13 @@
 import './styles/App.css';
 import Header from './Header';
-import Intro from './Intro';
+import Main from './Main';
 
 function App() {
   return (
     <div className="App">
       <div className='page'>
         <Header />
-        <Intro />
+        <Main />
       </div>
     </div>
   );
