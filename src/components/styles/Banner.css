@@ -1,0 +1,58 @@
+.banner {
+  margin-bottom: 119px;
+}
+
+.banner__image {
+  width: 100%;
+}
+
+.banner__title {
+  margin: 52px auto 0;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: .5px;
+}
+
+.banner__subtitle {
+  margin: 54px auto 0;
+  max-width: 650px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: .5px;
+}
+
+.banner__button {
+  margin: 26px 0 0 0;
+  height: 48px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #212A2F;
+  border: 2px solid #212A2F;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: opacity .2s ease-out;
+}
+
+.banner__button:hover {
+  opacity: .9;
+}
+
+.banner__button_shop {
+  width: 180px;
+  margin-right: 24px;
+}
+
+.banner__button_shop:last-child {
+  margin-right: 0;
+}
+
+.banner__button_blog {
+  width: 384px;
+}
