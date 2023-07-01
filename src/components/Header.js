@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import './styles/Header.css'
+import { Link } from 'react-router-dom';
 import headerLogo from '../images/header__logo.svg';
 import iconProfile from '../images/icon_profile.svg';
 import iconHelp from '../images/icon__help.svg';
@@ -9,9 +10,9 @@ function Header() {
   return (
     <header className='header'>
       <nav className='nav'>
-        <a className='link_men nav__link' href='#'>Men</a>
-        <a className='link_women nav__link' href='#'>Women</a>
-        <a className='link_new-arrivals nav__link' href='#'>New Arrivals</a>
+        <Link className='link_men nav__link' href='#'>Men</Link>
+        <Link className='link_women nav__link' href='#'>Women</Link>
+        <Link className='link_new-arrivals nav__link' href='#'>New Arrivals</Link>
       </nav>
       <img className='header__logo' src={headerLogo} alt='logo' />
       <nav className='nav'>
