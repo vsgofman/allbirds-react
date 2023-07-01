@@ -1,5 +1,4 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { Children } from 'react';
 import './Favorites.css';
 import iconCozy from '../../images/icon__cozy.svg';
 import iconBeezy from '../../images/icon__beezy.svg';
@@ -8,8 +7,7 @@ import imgCozy from '../../images/favorites__everyday1.svg';
 import imgBreezy from '../../images/favorites__everyday2.svg';
 import imgRain from '../../images/favorites__everyday3.svg';
 
-function Favorites({ children }) {
-  const elements = Children.toArray(children);
+function Favorites() {
   return (
     <section className='favorites'>
       <h2 className='favorites__title'>Our Favorites</h2>
@@ -27,9 +25,9 @@ function Favorites({ children }) {
             <button className='item__button'>Shop Women</button>
           </div>
           <h3 className='item__title'>Wool Runner</h3>
-          <div className='item__signatire'>
-            <img className='signatire__icon' src={iconCozy} alt='icon cozy' />
-            <p className='signatire__text'>Cozy Sneaker</p>
+          <div className='item__signature'>
+            <img className='signature__icon' src={iconCozy} alt='icon cozy' />
+            <p className='signature__text'>Cozy Sneaker</p>
           </div>
         </li>
 
@@ -40,9 +38,9 @@ function Favorites({ children }) {
             <button className='item__button'>Shop Women</button>
           </div>
           <h3 className='item__title'>Tree Runner</h3>
-          <div className='item__signatire'>
-            <img className='signatire__icon' src={iconBeezy} alt='icon beezy' />
-            <p className='signatire__text'>Light and Breezy Sneaker</p>
+          <div className='item__signature'>
+            <img className='signature__icon' src={iconBeezy} alt='icon beezy' />
+            <p className='signature__text'>Light and Breezy Sneaker</p>
           </div>
         </li>
 
@@ -53,9 +51,9 @@ function Favorites({ children }) {
             <button className='item__button'>Shop Women</button>
           </div>
           <h3 className='item__title'>Wool Runner Mizzle</h3>
-          <div className='item__signatire'>
-            <img className='signatire__icon' src={iconRain} alt='icon rain' />
-            <p className='signatire__text'>Rain-Ready Sneaker</p>
+          <div className='item__signature'>
+            <img className='signature__icon' src={iconRain} alt='icon rain' />
+            <p className='signature__text'>Rain-Ready Sneaker</p>
           </div>
         </li>
 

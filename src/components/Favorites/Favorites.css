@@ -118,7 +118,7 @@
   text-align: left;
 }
 
-.item__signatire {
+.item__signature {
   position: relative;
   display: flex;
   align-items: center;
@@ -126,7 +126,7 @@
   width: 85%;
 }
 
-.item__signatire::after {
+.item__signature::after {
   content: '';
   position: absolute;
   top: -12px;
@@ -137,7 +137,7 @@
   background-color: #D3D4D5;
 }
 
-.signatire__icon {
+.signature__icon {
   width: 30px;
   height: 30px;
   margin: 0 12px 0 0;
