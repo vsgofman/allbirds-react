@@ -121,28 +121,29 @@
 }
 
 .item__title {
-  position: relative;
   margin: 17px 0 0 30px;
   width: 336px;
   left: 0;
   text-align: left;
 }
 
-.item__title::before {
-  content: '';
-  position: absolute;
-  bottom: -50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  height: 1px;
-  background-color: #D3D4D5;
-}
-
 .item__signatire {
+  position: relative;
   display: flex;
   align-items: center;
   margin: 22px 0 0 30px;
+  width: 85%;
+}
+
+.item__signatire::after {
+  content: '';
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 1px;
+  background-color: #D3D4D5;
 }
 
 .signatire__icon {
