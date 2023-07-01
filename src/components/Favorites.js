@@ -1,10 +1,15 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import { Children } from 'react';
 import './styles/Favorites.css';
 import iconCozy from '../images/icon__cozy.svg';
 import iconBeezy from '../images/icon__beezy.svg';
 import iconRain from '../images/icon__rain.svg';
+import imgCozy from '../images/favorites__everyday1.svg';
+import imgBreezy from '../images/favorites__everyday2.svg';
+import imgRain from '../images/favorites__everyday3.svg';
 
-function Favorites() {
+function Favorites({ children }) {
+  const elements = Children.toArray(children);
   return (
     <section className='favorites'>
       <h2 className='favorites__title'>Our Favorites</h2>
@@ -14,8 +19,10 @@ function Favorites() {
         <a className='favorites__link' href='#'>Travel</a>
       </div>
       <ul className='favorites__items'>
+
         <li className='favorites__item'>
-          <div className='item__block item__block_cozy'>
+          <div className='item__block'>
+            <img className='item__img' src={imgCozy} alt='sneakers' />
             <button className='item__button'>Shop Men</button>
             <button className='item__button'>Shop Women</button>
           </div>
@@ -25,8 +32,10 @@ function Favorites() {
             <p className='signatire__text'>Cozy Sneaker</p>
           </div>
         </li>
+
         <li className='favorites__item'>
-          <div className='item__block item__block_breezy'>
+          <div className='item__block'>
+            <img className='item__img' src={imgBreezy} alt='sneakers' />
             <button className='item__button'>Shop Men</button>
             <button className='item__button'>Shop Women</button>
           </div>
@@ -36,8 +45,10 @@ function Favorites() {
             <p className='signatire__text'>Light and Breezy Sneaker</p>
           </div>
         </li>
+
         <li className='favorites__item'>
-          <div className='item__block item__block_rain'>
+          <div className='item__block'>
+            <img className='item__img' src={imgRain} alt='sneakers' />
             <button className='item__button'>Shop Men</button>
             <button className='item__button'>Shop Women</button>
           </div>
@@ -47,6 +58,7 @@ function Favorites() {
             <p className='signatire__text'>Rain-Ready Sneaker</p>
           </div>
         </li>
+
       </ul>
     </section>
   )

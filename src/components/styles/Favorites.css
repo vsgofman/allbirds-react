@@ -71,27 +71,17 @@
 }
 
 .item__block {
-  width: 100%;
-  height: 396px;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.item__block_cozy {
-  background-image: url(../../images/favorites__everyday1.svg);
-}
-
-.item__block_breezy {
-  background-image: url(../../images/favorites__everyday2.svg);
-}
-
-.item__block_rain {
-  background-image: url(../../images/favorites__everyday3.svg);
+  width: 100%;
+  height: 396px;
 }
 
 .item__img {
+  position: absolute;
   width: 100%;
   height: 100%;
 }
@@ -110,6 +100,7 @@
   border: none;
   cursor: pointer;
   transition: opacity .2s ease-out;
+  z-index: 2;
 }
 
 .item__button:hover {
