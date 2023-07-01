@@ -1,11 +1,11 @@
-import './styles/Main.css';
-import Intro from './Intro';
-import Favorites from './Favorites';
-import BannerShop from './BannerShop';
-import BannerBlog from './BannerBlog';
-import woolShoes from '../images/advantage__wool-shoes.svg';
-import planetFriendly from '../images/advantage__planet-friendly.svg';
-import environmental from '../images/advantage__environmental.svg';
+import './Main.css';
+import Intro from '../Intro/Intro';
+import Favorites from '../Favorites/Favorites';
+import BannerShop from '../BannerShop/BannerShop';
+import BannerBlog from '../BannerBlog/BannerBlog';
+import woolShoes from '../../images/advantage__wool-shoes.svg';
+import planetFriendly from '../../images/advantage__planet-friendly.svg';
+import environmental from '../../images/advantage__environmental.svg';
 
 function Main() {
   return (

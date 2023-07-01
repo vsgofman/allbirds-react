@@ -1,12 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { Children } from 'react';
-import './styles/Favorites.css';
-import iconCozy from '../images/icon__cozy.svg';
-import iconBeezy from '../images/icon__beezy.svg';
-import iconRain from '../images/icon__rain.svg';
-import imgCozy from '../images/favorites__everyday1.svg';
-import imgBreezy from '../images/favorites__everyday2.svg';
-import imgRain from '../images/favorites__everyday3.svg';
+import './Favorites.css';
+import iconCozy from '../../images/icon__cozy.svg';
+import iconBeezy from '../../images/icon__beezy.svg';
+import iconRain from '../../images/icon__rain.svg';
+import imgCozy from '../../images/favorites__everyday1.svg';
+import imgBreezy from '../../images/favorites__everyday2.svg';
+import imgRain from '../../images/favorites__everyday3.svg';
 
 function Favorites({ children }) {
   const elements = Children.toArray(children);

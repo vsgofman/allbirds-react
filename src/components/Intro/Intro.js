@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import './styles/Intro.css';
+import './Intro.css';
 
 function Intro() {
   return (

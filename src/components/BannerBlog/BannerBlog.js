@@ -1,5 +1,4 @@
-// import './styles/BannerBlog.css';
-import Banner from './Banner';
+import Banner from '../Banner/Banner';
 
 function BannerBlog({ image, title, subtitle, buttonText }) {
   return (

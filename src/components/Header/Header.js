@@ -1,10 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import './styles/Header.css'
+import './Header.css'
 import { Link } from 'react-router-dom';
-import headerLogo from '../images/header__logo.svg';
-import iconProfile from '../images/icon_profile.svg';
-import iconHelp from '../images/icon__help.svg';
-import iconCart from '../images/icon__shopping-cart.svg';
+import headerLogo from '../../images/header__logo.svg';
+import iconProfile from '../../images/icon_profile.svg';
+import iconHelp from '../../images/icon__help.svg';
+import iconCart from '../../images/icon__shopping-cart.svg';
 
 function Header() {
   return (
