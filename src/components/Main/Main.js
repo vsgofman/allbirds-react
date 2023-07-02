@@ -4,6 +4,7 @@ import Favorites from '../Favorites/Favorites';
 import Cards from '../Cards/Cards';
 import BannerShop from '../BannerShop/BannerShop';
 import BannerBlog from '../BannerBlog/BannerBlog';
+import SubscriptionBlock from '../SubscriptionBlock/SubscriptionBlock';
 import woolShoes from '../../images/advantage__wool-shoes.svg';
 import planetFriendly from '../../images/advantage__planet-friendly.svg';
 import environmental from '../../images/advantage__environmental.svg';
@@ -34,6 +35,7 @@ function Main() {
         buttonText="Our Sustainable Practices"
       />
       <Cards title={'Stories'} cards={cardsStories} titleMod={true} />
+      <SubscriptionBlock />
     </main>
   )
 }

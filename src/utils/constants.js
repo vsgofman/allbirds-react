@@ -7,14 +7,14 @@ const cardsCollection = [
   },
   {
     id: 2,
-    title: 'New Arrivals',
-    subtitle: 'The latest styles and limited edition colors that you can only find here (while they last, that is).',
+    title: 'Natural Run Collection',
+    subtitle: 'Looking for more sustainable ways to break a sweat? We’ve got you covered from head to toe.',
     image: 'https://s356vla.storage.yandex.net/rdisk/2e48b41ae6569bd49373143c76ed40bdadc331951b2719821de452bae6443295/64a195bb/hERkTJ7nBFN1x2_sHQtMvFEAjWD1N9cPfOs1IF4BP4t_Dyifk1naNdqEpKMRlSsiz3oYJPHmsJnk7A4JK0xy8Q==?uid=1024872475&filename=shop__item2.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=1024872475&fsize=67494&hid=5bc5d98c448532ab6d39db532e4c8f46&media_type=image&tknv=v2&etag=0bc21fbcf3aad5bfcce3ef059d1e01e7&rtoken=o86Uux0QJdk4&force_default=yes&ycrid=na-78c6e4262dd3bea81efadd80fb7b0608-downloader8h&ts=5ff8296f4a4c0&s=88d51238d451b1e2c912c28d8dc173c6297dbdb525f60783e7e345b7158b8aa1&pb=U2FsdGVkX18lxqGTFgRl-rPiTajKRllCfDh8gg_qZUj9mT4uuu6vcJ305-EAEMmbp82Uso0JkduCJjcztmo8Gz0EEFSvhlVb8IzV9EzmJq4'
   },
   {
     id: 3,
-    title: 'New Arrivals',
-    subtitle: 'The latest styles and limited edition colors that you can only find here (while they last, that is).',
+    title: 'Fresh Long Sleeve Tee Colors',
+    subtitle: 'It’s crisp, clean and ready for wherever the day takes you.',
     image: 'https://s226vlx.storage.yandex.net/rdisk/0aec5235d241d570092c3dd789f002ab1fa3e6abcf82136537f5d2c5bfc8b969/64a195d9/hERkTJ7nBFN1x2_sHQtMvLBqSKIr_kOkcjBvY4HcHKBGD5IJk5N6sT2qPKW3dDCZVgyWhkAYCWrXOmS2W4ZQYA==?uid=1024872475&filename=shop__item3.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=1024872475&fsize=38131&hid=246492c8d018feeb0a2c525283059518&media_type=image&tknv=v2&etag=4bd2ac927948ed746de241319992b8c4&rtoken=qWLc1KTvUjJz&force_default=yes&ycrid=na-022fba660f9aec128dd6906c1fc8e32a-downloader8h&ts=5ff8298be6840&s=d88a84988fb71bae6c2cee65bda3cfe067a9eef20990c67094423ccb2673365f&pb=U2FsdGVkX1-zRZYgoegnOrWPE6O4KC7r3RPHw7IECXlRoNMZ7e0gpqAw-ruqPK6KHlAOYvLIIl4q1XUxP5y8tySLbpvt0kOsZU8UeiZ1stA'
   }
 ]
