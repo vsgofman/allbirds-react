@@ -1,4 +1,5 @@
 .favorites {
+  width: 95%;
   max-width: 1236px;
   margin: 0 auto;
   padding: 119px 0 142px;
@@ -58,7 +59,7 @@
   display: grid;
   gap: 24px;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  width: 1236px;
+  width: 100%;
   padding: 34px 0 0 0;
   list-style-type: none;
   border-top: 2px solid #D3D4D5;

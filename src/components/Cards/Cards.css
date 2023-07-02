@@ -1,10 +1,10 @@
-.card-block {
+.cards {
   width: 90%;
   max-width: 1236px;
   margin: 0 auto 120px;
 }
 
-.card-block__title {
+.cards__title {
   margin-bottom: 24px;
   text-align: left;
   font-size: 32px;
@@ -13,7 +13,11 @@
   letter-spacing: 0.5px;
 }
 
-.card-block__list {
+.cards__title_weight_normal {
+  font-weight: 400;
+}
+
+.cards__list {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 24px;
