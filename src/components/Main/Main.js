@@ -1,6 +1,7 @@
 import './Main.css';
 import Intro from '../Intro/Intro';
 import Favorites from '../Favorites/Favorites';
+import Cards from '../Cards/Cards';
 import BannerShop from '../BannerShop/BannerShop';
 import BannerBlog from '../BannerBlog/BannerBlog';
 import woolShoes from '../../images/advantage__wool-shoes.svg';
@@ -17,6 +18,7 @@ function Main() {
         title="Seasons Change. Your Shoes Don’t Have To."
         subtitle="Soft and cozy wool shoes to keep you comfortable all year round."
       />
+      <Cards title={'Shop The Collections'} />
       <BannerBlog
         image={planetFriendly}
         title="Made From Nature, For Nature"

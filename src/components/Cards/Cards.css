@@ -1,0 +1,21 @@
+.card-block {
+  width: 90%;
+  max-width: 1236px;
+  margin: 0 auto 120px;
+}
+
+.card-block__title {
+  margin-bottom: 24px;
+  text-align: left;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.5px;
+}
+
+.card-block__list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  list-style-type: none;
+}
